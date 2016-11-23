@@ -10,7 +10,7 @@ const mockery = require('mockery');
 const seneca = require('seneca');
 
 const senecaOpts = {
-  log: {level: 'silent'}
+  log: {level: 'error+'}
 };
 
 describe('role: telldus-device', () => {

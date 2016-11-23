@@ -12,7 +12,7 @@ const seneca = require('seneca');
 const data = require('./test-data');
 
 const senecaOpts = {
-  log: {level: 'silent'}
+  log: {level: 'error+'}
 };
 
 describe('telldus-live', () => {
