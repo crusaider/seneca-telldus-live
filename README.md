@@ -28,6 +28,7 @@ Returns a object that contains the device `id` and a `state` key. The state ca b
 * `off`
 * `up`
 * `down`
+
 ## Build and test
 Clone the repository to you favourite location. Run `$ npm install`. Since `gulp` is used as the build tool it is
 convenient to install the `gulp-cli` globally on your machine `$ npm install -g gulp-cli`.
