@@ -1,0 +1,53 @@
+{
+  "name": "seneca-telldus-live",
+  "version": "0.1.0",
+  "description": "Seneca plugin for communication with the Telldus live service public API.",
+  "homepage": "",
+  "author": {
+    "name": "Jonas Andreasson",
+    "email": "jonas.m.andreasson@gmail.com",
+    "url": "https://twitter.com/Crusaider"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "telldus-live",
+    "telldus",
+    "home-automation",
+    "seneca"
+  ],
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "mockery": "2.0.0",
+    "sinon": "1.17.6"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "crusaider/seneca-telldus-live",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "querystring": "0.2.0",
+    "seneca": "3.2.2",
+    "telldus-live-constants": "1.0.0",
+    "telldus-live-promise": "1.1.3"
+  }
+}
